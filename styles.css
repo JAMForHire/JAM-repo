@@ -1,0 +1,33 @@
+.client1 {
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.client1 .clientInfo {
+  order: 2;
+  text-align: center;
+}
+
+.client1 .clientTestimonial {
+  order: 1;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.client2 {
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.client2 .clientInfo {
+  order: 1;
+  text-align: center;
+}
+
+.client2 .clientTestimonial {
+  order: 2;
+  flex-grow: 1;
+  text-align: right;
+}
