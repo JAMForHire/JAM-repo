@@ -37,8 +37,51 @@ html, body {
   width: 100%;
   height: 100vh;
   background-color: black;
-  padding: none;
-  margin: none;
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+.third {
+  width: 100%;
+  height: 80vh;
+  background-color: #70509d;
+  padding: 0px;
+  margin: 0px;
+}
+
+.projDisplay {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.projImg {
+  width: 35vh;
+  height: 35vh;
+  padding: 5%;
+}
+
+.projContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projTitle {
+  padding-top: 2%;
+  margin: 0px;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+
+.projDesc {
+  color: white;
+  font-size: 18;
+  text-align: center;
 }
 
 .client1 {
@@ -85,7 +128,7 @@ html, body {
 
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: block;
   padding-top: 2%;
   background-color: #F3F1F1;
   float: right;
