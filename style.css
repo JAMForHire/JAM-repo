@@ -1,3 +1,46 @@
+html, body {
+  background-color: #F3F1F1;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navigation {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.logo {
+  width: 14vh;
+  height: 14vh;
+}
+
+.first {
+  width: 100%;
+  height: 100vh;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.mainLogo {
+  display: flex;
+  justify-self: center;
+}
+
+.slogan {
+  text-align: center;
+}
+
+.second {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  padding: none;
+  margin: none;
+}
+
 .client1 {
   height: 100px;
   display: flex;
@@ -37,12 +80,14 @@
   border: none;
   min-width: 160px;
   text-align:right;
-  background-color: white;
+  background-color: #F3F1F1;
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
+  padding-top: 2%;
+  background-color: #F3F1F1;
   float: right;
 }
 
