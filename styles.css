@@ -31,3 +31,64 @@
   flex-grow: 1;
   text-align: right;
 }
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  min-width: 160px;
+  text-align:right;
+  background-color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  text-align: right;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover{
+  background-color: #A9A9A9;
+}
+.dropbtn:hover{
+  background-color: #A9A9A9;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.gg-chevron-down {
+    box-sizing: border-box;
+    position: relative;
+    display: inline;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px;
+    border: 2px solid transparent;
+    border-radius: 100px
+}
+.gg-chevron-down::after {
+    content: "";
+    display: inline;
+    box-sizing: border-box;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    left: 4px;
+    top: 2px
+}
