@@ -76,6 +76,7 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 50%;
 }
 
 .projMainTitle { /*larger font*/
@@ -142,6 +143,7 @@ html, body {
   display: flex;
   justify-content: space-around;
   margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 .client1 .clientInfo {
@@ -170,6 +172,7 @@ html, body {
   order: 2;
   margin-right: 200px;
 }
+
 .dropbtn {
   padding: 16px;
   font-size: 16px;
@@ -200,15 +203,19 @@ html, body {
   text-decoration: none;
   display: block;
 }
+
 .dropdown-content a:hover{
   background-color: #A9A9A9;
 }
+
 .dropbtn:hover{
   background-color: #A9A9A9;
 }
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 .gg-chevron-down {
   box-sizing: border-box;
   position: relative;
@@ -309,4 +316,229 @@ html, body {
   height: 250px;
   border: 3px solid rgb(160, 87, 130);
   border-radius: 20px;
+}
+
+.simar_noMargin {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
+.simar_noFmt {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+  font-weight: 100;
+}
+
+li::before {
+  content: "+";
+  padding-right: 2vh;
+  color: green;
+  font-weight: 700;
+}
+
+.simar_landing {
+  width: 100%;
+  height: 100vh;
+  background-color: #323232;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.landing_title {
+  color: transparent;
+}
+
+.simar_landing_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.simar_landingContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.simar_name {
+  color: white;
+  font-size: 96px;
+}
+
+.simar_statement {
+  color: #9A9A9A;
+  font-size: 32px;
+  padding-bottom: 4vh;
+}
+
+.simar_contact {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.simar_rounded {
+  width: 10vh;
+  height: 10vh;
+}
+
+.simar_pfp {
+  width: 30vh;
+  height: 30vh;
+  border-radius: 100%;
+}
+
+.simar_gap {
+  width: 10vh;
+  height: 50px;
+}
+
+.simar_btmChev {
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 2vh;
+  color: white;
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.simar_edu {
+  width: 100%;
+  height: 100vh;
+  background-color: #709AB1;
+}
+
+.simar_eduTitle {
+  font-size: 72px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: white;
+  padding-top: 2vh;
+}
+
+.simar_schools {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.simar_school {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.simar_school_logo {
+  width: 25vh;
+  height: 25vh;
+}
+
+.simar_space {
+  width: auto;
+  height: 1px;
+}
+
+.simar_txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.simar_exp {
+  width: 100%;
+  height: 100vh;
+  background-color: #374785;
+  padding-left: 1vh;
+}
+
+.simar_expTitle {
+  color: white;
+  font-size: 48px;
+  padding-top: 3vh;
+  margin-bottom: 100px;
+}
+
+.simar_cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.simar_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+  max-width: 20%;
+}
+
+.simar_companyLogo {
+  width: 15vh;
+  height: 15vh;
+}
+
+.simar_wrkTitle {
+  font-size: 64px;
+  padding: 4px;
+}
+
+.simar_org {
+  font-size: 24px;
+  padding: 8px;
+}
+
+.simar_det {
+  font-size: 16px;
+  padding: 8px;
+}
+
+.simar_date {
+  font-size: 12px;
+  color: grey;
+}
+
+.simar_skills {
+  width: 100%;
+  height: 100vh;
+  background-color: #E0E0E0;
+}
+
+.simar_skillTitle {
+  font-size: 72px;
+  text-align: center;
+  padding-top: 12vh;
+}
+
+.simar_list {
+  padding-top: 3vh;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 48px;
 }
