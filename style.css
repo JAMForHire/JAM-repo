@@ -199,7 +199,6 @@ html, body {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-
 }
 .dropdown-content a:hover{
   background-color: #A9A9A9;
@@ -211,51 +210,50 @@ html, body {
   display: block;
 }
 .gg-chevron-down {
-    box-sizing: border-box;
-    position: relative;
-    display: inline;
-    transform: scale(var(--ggs,1));
-    width: 22px;
-    height: 22px;
-    border: 2px solid transparent;
-    border-radius: 100px
+  box-sizing: border-box;
+  position: relative;
+  display: inline;
+  transform: scale(var(--ggs,1));
+  width: 22px;
+  height: 22px;
+  border: 2px solid transparent;
+  border-radius: 100px
 }
 .gg-chevron-down::after {
-    content: "";
-    display: inline;
-    box-sizing: border-box;
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    border-bottom: 2px solid;
-    border-right: 2px solid;
-    transform: rotate(45deg);
-    left: 4px;
-    top: 2px
+  content: "";
+  display: inline;
+  box-sizing: border-box;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+  transform: rotate(45deg);
+  left: 4px;
+  top: 2px
 }
 
 .grid {
-    display: grid;
-    padding: 0px 0px 0px 0px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px;
-    row-gap: 50px;
-    column-gap: 20px;
+  display: grid;
+  padding: 0px 0px 0px 0px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  row-gap: 50px;
+  column-gap: 20px;
 }
 
 .avatar {
-    background-color: white;
-    border-radius: 100%;
-    max-height: 150px;
-    max-width: 150px;
-    object-fit: contain;  
+  background-color: white;
+  border-radius: 100%;
+  max-height: 150px;
+  max-width: 150px;
+  object-fit: contain;  
 }
 .item {
-    display:flex;
-    flex-direction: column;
-    margin: auto;
-    text-align: center;
-  
+  display:flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
 }
 .teamTitle {
   text-align: center;
