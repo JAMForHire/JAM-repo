@@ -266,3 +266,47 @@ html, body {
   margin-top: 10px;
   font-weight: 500;
 }
+
+.bajajb {
+  text-align: center;
+  background-color: rgb(238, 218, 230);
+  color: rgb(95, 55, 80);
+}
+
+.bajajb_title {
+  font-size: 50px;
+}
+
+.bajajb_details_1 {
+  margin-bottom: 7.6em;
+}
+
+.bajajb_email {
+  color: rgb(131, 77, 110);
+}
+
+.bajajb_email:hover {
+  color: rgb(165, 101, 141)
+}
+
+.bajajb_email:active {
+  color: rgb(95, 55, 80);
+}
+
+.bajajb_objective_title {
+  font-size: 30px;
+}
+
+.bajajb_details_2 {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.bajajb_items_container {
+  line-height: 5px;
+  width: 300px;
+  height: 250px;
+  border: 3px solid rgb(160, 87, 130);
+  border-radius: 20px;
+}
