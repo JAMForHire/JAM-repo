@@ -107,34 +107,57 @@ html, body {
   text-align: center;
 }
 
+.clientImg {
+  margin-top: 40px;
+}
+
+.clientInfo {
+  text-align: center;
+}
+
 .clientName {
   font-size: 30px;
+  margin: 5px 0 0 0;
+}
+
+.clientCompany {
+  margin: 5px 0 0 0;
+}
+
+.clientTestimonial {
+  width: 800px;
+  font-size: 25px;
+  border: 2px solid gray;
+  border-radius: 20px;
+  text-align: center;
+
+  /*center text vertically & horizontally*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .client1 {
   height: 250px;
   display: flex;
-  justify-content: flex-start;
-  margin-top: 50px;
+  justify-content: space-around;
+  margin-top: 15px;
 }
 
 .client1 .clientInfo {
   order: 2;
-  text-align: center;
   margin-right: 200px;
 }
 
 .client1 .clientTestimonial {
   order: 1;
-  flex-grow: 1;
-  text-align: left;
   margin-left: 200px;
 }
 
 .client2 {
   height: 250px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
 }
 
 .client2 .clientInfo {
@@ -145,8 +168,6 @@ html, body {
 
 .client2 .clientTestimonial {
   order: 2;
-  flex-grow: 1;
-  text-align: right;
   margin-right: 200px;
 }
 .dropbtn {
