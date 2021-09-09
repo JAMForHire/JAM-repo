@@ -199,3 +199,20 @@ html, body {
     left: 4px;
     top: 2px
 }
+
+.grid {
+    display: grid;
+    width: 95%;
+    padding: 0px 0px 0px 0px;
+    margin:auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 200px 200px;
+    gap: 20px;
+}
+
+.avatar {
+    background-color: white;
+    border-radius: 500px;
+    max-height: 150px;
+    object-fit: contain;    
+}
