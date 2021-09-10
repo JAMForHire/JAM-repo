@@ -604,11 +604,20 @@ html, body {
   display: flex;
 }
 .Jexp{
-  width:60%;
+  width:59%;
   padding: 10px;
   border:2px solid #000;
   border-radius: 15px;
   background-color: #8E53E5;
   height: 300px;
+  display: inline-grid;
+}
+.jwork{
+  width:40%;
+  padding: 10px;
+  border:2px solid #000;
+  border-radius: 15px;
+  background-color: #8E53E5;
+  height: 400px;
   display: inline-grid;
 }
