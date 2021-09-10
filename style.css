@@ -253,7 +253,7 @@ html, body {
   border-radius: 100%;
   max-height: 150px;
   max-width: 150px;
-  object-fit: contain;  
+  object-fit: contain;
 }
 .item {
   display:flex;
@@ -289,15 +289,15 @@ html, body {
   margin-bottom: 6em;
 }
 
-.bajajb_email {
+.bajajb_link {
   color: rgb(131, 77, 110);
 }
 
-.bajajb_email:hover {
+.bajajb_link:hover {
   color: rgb(165, 101, 141)
 }
 
-.bajajb_email:active {
+.bajajb_link:active {
   color: rgb(95, 55, 80);
 }
 
