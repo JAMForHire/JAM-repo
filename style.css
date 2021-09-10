@@ -570,21 +570,48 @@ html, body {
   font-size: 48px;
 }
 #Bio{
-  width:99%;
+  width:98%;
   padding: 10px;
   border:2px solid #000;
   border-radius: 15px;
   background-color: #8E53E5;
-  height: 99%;
+  height: 98%;
 }
 #Titleb{
   text-align: center;
 }
-#pic{
+.jimg{
   width:40%;
   height: 40%;
   padding: 10px;
   border:2px solid #000;
   border-radius: 15px;
   background-color: #8E53E5;
+  display: inline-grid;
+}
+.jEd{
+  width:60%;
+  padding: 10px;
+  border:2px solid #000;
+  border-radius: 15px;
+  background-color: #8E53E5;
+  height: 100%;
+}
+.jt{
+  text-align: center;
+}
+.fix{
+  display: flex;
+}
+.Jexp{
+  width:60%;
+  padding: 10px;
+  border:2px solid #000;
+  border-radius: 15px;
+  background-color: #8E53E5;
+  height: 300px;
+  display: inline-grid;
+}
+#jpic{
+  align-items: center;
 }
