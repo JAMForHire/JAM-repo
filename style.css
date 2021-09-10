@@ -296,11 +296,6 @@ html, body {
   margin-bottom: 6em;
 }
 
-.bajajb_details_1 h2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 .bajajb_link {
   color: rgb(131, 77, 110);
 }
@@ -616,7 +611,4 @@ html, body {
   background-color: #8E53E5;
   height: 300px;
   display: inline-grid;
-}
-#jpic{
-  align-items: center;
 }
