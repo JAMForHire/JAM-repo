@@ -569,3 +569,22 @@ html, body {
   justify-content: space-evenly;
   font-size: 48px;
 }
+#Bio{
+  width:99%;
+  padding: 10px;
+  border:2px solid #000;
+  border-radius: 15px;
+  background-color: #8E53E5;
+  height: 99%;
+}
+#Titleb{
+  text-align: center;
+}
+#pic{
+  width:40%;
+  height: 40%;
+  padding: 10px;
+  border:2px solid #000;
+  border-radius: 15px;
+  background-color: #8E53E5;
+}
