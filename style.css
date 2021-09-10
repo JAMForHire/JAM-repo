@@ -1,9 +1,11 @@
+/* Main p */
 html, body {
   background-color: #F3F1F1;
   padding: 0px;
   margin: 0px;
 }
 
+/* Navbar */
 .navigation {
   padding-left: 2%;
   padding-right: 2%;
@@ -14,10 +16,17 @@ html, body {
   height: 14vh;
 }
 
+.slogan {
+  
+}
+
+/* Take up entire screen */
 .first {
   width: 100%;
   height: 100vh;
 }
+
+/* Landing Styles */
 
 .logoContainer {
   display: flex;
@@ -33,6 +42,8 @@ html, body {
   text-align: center;
 }
 
+/* Second section */
+
 .second {
   width: 100%;
   height: 110vh;
@@ -42,6 +53,8 @@ html, body {
   color: white;
 }
 
+/* Third section */
+
 .third {
   width: 100%;
   height: 90vh;
@@ -50,6 +63,8 @@ html, body {
   margin: 0px;
 }
 
+/* Fourth section */
+
 .fourth {
   width: 100%;
   height: 100vh;
@@ -57,6 +72,8 @@ html, body {
   padding: 0px;
   margin: 0px;
 }
+
+/* Project card styles */
 
 .projDisplay {
   display: flex;
@@ -97,9 +114,11 @@ html, body {
 
 .projDesc {
   color: white;
-  font-size: 18;
+  font-size: 18px;
   text-align: center;
 }
+
+/* Testimonial Styles */
 
 .clientsTitle {
   padding-top: 2%;
@@ -173,6 +192,8 @@ html, body {
   margin-right: 200px;
 }
 
+/* Dropdown Styles */
+
 .dropbtn {
   padding: 16px;
   font-size: 16px;
@@ -216,29 +237,7 @@ html, body {
   display: block;
 }
 
-.gg-chevron-down {
-  box-sizing: border-box;
-  position: relative;
-  display: inline;
-  transform: scale(var(--ggs,1));
-  width: 22px;
-  height: 22px;
-  border: 2px solid transparent;
-  border-radius: 100px
-}
-.gg-chevron-down::after {
-  content: "";
-  display: inline;
-  box-sizing: border-box;
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border-bottom: 2px solid;
-  border-right: 2px solid;
-  transform: rotate(45deg);
-  left: 4px;
-  top: 2px
-}
+/* Grid layout styles */
 
 .grid {
   display: grid;
@@ -273,6 +272,8 @@ html, body {
   margin-top: 10px;
   font-weight: 500;
 }
+
+/* Bhavesh Styles */
 
 .bajajb {
   text-align: center;
@@ -334,6 +335,8 @@ html, body {
 .bajajb_item p {
   margin: 5px 2px 5px 2px;
 }
+
+/* Simar Styles */
 
 .simar_noMargin {
   width: 100%;
