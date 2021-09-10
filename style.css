@@ -1,3 +1,5 @@
+/*Ketu's font*/
+@import url('https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap');
 /* Main p */
 html, body {
   background-color: #F3F1F1;
@@ -629,4 +631,103 @@ html, body {
   background-color: red;
   height: 400px;
   display: inline-grid;
+}
+
+.ketu_body{
+  background-color: #eedae6;
+}
+.ketu_name{
+  font-family: 'Tinos', serif;
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    color: white;
+}
+.ketu_contact-info{
+  border-radius: 25px;
+  background: white;
+  padding: 30px;
+  width: 92%;
+  margin:auto;
+  margin-bottom: 10px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.ketu_contact{
+  display: inline;
+  margin-top: -10px;
+  font-size: 2em;
+}
+.ketu_container{
+  display: grid;
+  width: 95%;
+  padding: 5px 5px 5px 5px;
+  margin:auto;
+  background-color: #eedae6;
+  grid-template-columns: 20% auto;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+.ketu_split{
+  display: flex;
+  margin-bottom: 0px;
+  flex-direction: column;
+  gap: 20px;
+  min-height: fit-content;
+}
+img[src*="Ketu_Patel_photo.jpg"]{
+  margin: 0px;
+  max-width: 130%;
+  max-height: 130%;
+  position: relative; 
+  right: 15%;
+  object-fit: contain;
+}
+.ketu_image {
+  background-color: white;
+  border-radius: 25px;
+  min-width: 250px;
+  max-height: 45vh;
+  overflow: hidden;
+}  
+.ketu_objective {
+  background-color: white;
+  padding: 5px 5px 5px 5px;
+  height: auto;
+  border-radius: 25px;
+}  
+.ketu_education {
+  min-height: 150px;
+  height:auto;
+  padding: 5px 5px 5px 5px;
+  background-color: white;
+  border-radius: 25px;
+}  
+.ketu_skills {
+  background-color: white;
+  padding: 5px 5px 5px 5px;
+  border-radius: 25px;
+  display:flex;
+  flex-direction:column;
+}
+.ketu_work {
+  background-color: white;
+  padding: 5px 5px 5px 5px;
+  border-radius: 25px;
+  display:flex;
+  flex-direction: column;
+}
+.ketu_line{
+  display: flex;
+  justify-content: space-between;
+}
+.ketu_details {
+  padding-bottom: 10px;
+}
+.ketu_skillList{
+  margin-left:25px;
+}
+.ketu_jobTitle {
+  font-size: x-large;
 }
