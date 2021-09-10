@@ -659,6 +659,7 @@ html, body {
   margin-top: -10px;
   font-size: 2em;
 }
+/*gives structure for page*/
 .ketu_container{
   display: grid;
   width: 95%;
@@ -669,6 +670,7 @@ html, body {
   grid-template-rows: auto auto;
   gap: 20px;
 }
+/*Gives structure to both columns in container*/
 .ketu_split{
   display: flex;
   margin-bottom: 0px;
@@ -718,6 +720,7 @@ img[src*="Ketu_Patel_photo.jpg"]{
   display:flex;
   flex-direction: column;
 }
+/*Places info on same line*/
 .ketu_line{
   display: flex;
   justify-content: space-between;
