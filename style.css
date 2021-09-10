@@ -569,6 +569,7 @@ html, body {
   justify-content: space-evenly;
   font-size: 48px;
 }
+/* does css for my bio box*/
 #Bio{
   width:98%;
   padding: 10px;
@@ -577,9 +578,12 @@ html, body {
   background-color: red;
   height: 98%;
 }
+/* alligns text*/
 #Titleb{
   text-align: center;
 }
+/*puts the image into a box*/
+
 .jimg{
   width:40%;
   height: 40%;
@@ -589,6 +593,7 @@ html, body {
   background-color: green;
   display: inline-grid;
 }
+/*puts education into a box*/
 .jEd{
   width:60%;
   padding: 10px;
@@ -597,12 +602,15 @@ html, body {
   background-color: green;
   height: 100%;
 }
+/*alligns text*/
 .jt{
   text-align: center;
 }
+/*Lest me change the dispal manegment for some goups to put them on the smae line*/
 .fix{
   display: flex;
 }
+/*lines up experiance*/
 .Jexp{
   width:59%;
   padding: 10px;
@@ -612,6 +620,7 @@ html, body {
   height: 300px;
   display: inline-grid;
 }
+/*Lines up work*/
 .jwork{
   width:40%;
   padding: 10px;
