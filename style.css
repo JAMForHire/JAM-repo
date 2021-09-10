@@ -296,6 +296,11 @@ html, body {
   margin-bottom: 6em;
 }
 
+.bajajb_details_1 h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .bajajb_link {
   color: rgb(131, 77, 110);
 }
