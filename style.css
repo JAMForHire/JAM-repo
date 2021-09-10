@@ -574,7 +574,7 @@ html, body {
   padding: 10px;
   border:2px solid #000;
   border-radius: 15px;
-  background-color: #8E53E5;
+  background-color: red;
   height: 98%;
 }
 #Titleb{
@@ -586,7 +586,7 @@ html, body {
   padding: 10px;
   border:2px solid #000;
   border-radius: 15px;
-  background-color: #8E53E5;
+  background-color: green;
   display: inline-grid;
 }
 .jEd{
@@ -594,7 +594,7 @@ html, body {
   padding: 10px;
   border:2px solid #000;
   border-radius: 15px;
-  background-color: #8E53E5;
+  background-color: green;
   height: 100%;
 }
 .jt{
@@ -608,7 +608,7 @@ html, body {
   padding: 10px;
   border:2px solid #000;
   border-radius: 15px;
-  background-color: #8E53E5;
+  background-color: blue;
   height: 300px;
   display: inline-grid;
 }
@@ -617,7 +617,7 @@ html, body {
   padding: 10px;
   border:2px solid #000;
   border-radius: 15px;
-  background-color: #8E53E5;
+  background-color: red;
   height: 400px;
   display: inline-grid;
 }
